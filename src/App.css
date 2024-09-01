@@ -1,0 +1,107 @@
+/* App.css */
+
+body {
+  background-color: #f0f4f8;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  background-color: #6666;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  color: #88ff;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #555;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #777;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+/* Button Styles */
+button {
+  background-color: #007bff;  /* Primary blue color */
+  color: #ffffff;  /* White text */
+  border: none;
+  padding: 12px 24px;  /* Adequate padding for better touch targets */
+  margin: 10px 0;  /* Spacing between buttons */
+  font-size: 16px;  /* Readable font size */
+  font-weight: bold;  /* Slightly bolder text for emphasis */
+  border-radius: 5px;  /* Rounded corners for a modern look */
+  cursor: pointer;  /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease;  /* Smooth transitions */
+}
+
+/* Hover Effect */
+button:hover {
+  background-color: #0056b3;  /* Darker blue on hover */
+  transform: translateY(-2px);  /* Slight lift on hover */
+}
+
+/* Active State */
+button:active {
+  background-color: #004494;  /* Even darker blue when button is clicked */
+  transform: translateY(0);  /* Button returns to normal position */
+}
+
+/* Disabled State */
+button:disabled {
+  background-color: #cccccc;  /* Grey background when disabled */
+  cursor: not-allowed;  /* Not allowed cursor for disabled buttons */
+}
+
+/* Responsive Button (for small screens) */
+@media (max-width: 600px) {
+  button {
+    width: 100%;  /* Full width button on small screens */
+    padding: 14px 0;  /* Adjust padding for full-width button */
+  }
+
+
+.timer {
+  font-size: 1.2rem;
+  color: #ff5722;
+}
+
+.Result {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+@media (max-width: 600px) {
+  .App {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}
